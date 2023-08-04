@@ -1,0 +1,174 @@
+
+<html>
+<head>
+<title>Registration Form</title>
+
+<style>
+    
+h2{
+  font-family: Sans-serif; 
+  font-size: 28px;         
+  font-style: normal; 
+  font-weight: bold; 
+  color: kakhiblack;
+  text-align: center; 
+  
+}
+
+table{
+  font-family: verdana; 
+  color:white; 
+  font-size: 16px; 
+  font-style: normal;
+  font-weight: bold;
+  background-color:Blue; 
+  border: collapse; 
+  border: 4px solid #000000;
+  
+  
+
+}
+
+
+input[type=text], input[type=email], input[type=number],input[type=password]{
+  width: 50%;
+  padding: 6px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button[type=submit]{
+  width: 15%;
+  padding: 8px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+</style>
+
+</head>
+ 
+<body >
+<h2> Registration Form</h3>
+ <form>
+  
+<table align="center" >
+  
+<tr>
+<td>First Name</td>
+<td><input type="text" name="FirstName"   required/>
+</td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="LastName"   required/>
+</td>
+</tr>
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="EmailID"   required/></td>
+</tr>
+<tr>
+  <td>Password</td>
+  <td><input type="password" name="Password" required/>
+  </td>
+</tr>
+<tr>
+<td>Mobile Number</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10"  required/>
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+<tr>
+<td>Birthday:</td>
+<td>
+   <input type="date"  name="birthday" required>
+</td>
+</tr>
+<tr>
+<td>Address<br /><br /><br /></td>
+<td><textarea name="Address" rows="5" cols="50"></textarea></td>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text" name="City"  required/>
+</td>
+</tr>
+<tr>
+<td>Pin Code</td>
+<td><input type="Number" name="PinCode"  required/>
+</td>
+</tr>
+<tr>
+<td>State</td>
+<td><input type="text" name="State"  required/>
+</td>
+</tr>
+<tr>
+<td>Country</td>
+<td><input type="text" name="Country"  required/></td>
+</tr>
+<tr>
+    <td>Languages known</td>
+    <td>
+    <input type="radio" name="Gender" value="Telugu" />
+    Telugu
+    <input type="radio" name="Gender" value="English" />
+    English
+    </td>
+    </tr>
+<td>Hobbies <br /><br /><br /></td>
+<td>
+<input type="checkbox" name="HobbyDrawing" value="Drawing" />
+Drawing
+<input type="checkbox" name="HobbySinging" value="Singing" />
+Singing
+<input type="checkbox" name="HobbyDancing" value="Dancing" />
+Dancing
+<input type="checkbox" name="HobbyCooking" value="Cooking" />
+Sketching
+<br />
+<input type="checkbox" name="HobbyOther" value="Other">
+Others
+<input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />
+</td>
+</tr>
+<tr>
+<td> High Qualification <br /><br /><br /></td>
+<td>
+<br/>
+<input type="radio" name="HigherSchool" value="Higher School" />
+Higher School(12th)<br/>
+<input type="radio" name="Graduation" value="Graduation" />
+Graduation(Bachelors)<br/>
+<input type="radio" name="PostGraduation" value="Post Graduation" />
+Post Graduation(Masters)<br/>
+<input type="radio" name="Phd" value="Phd">
+Phd
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+  <button  type="submit"><a href="success.html">submit</a></button>
+</td>
+</tr>
+</table>
+
+</form>
+ 
+</body>
+</html>
